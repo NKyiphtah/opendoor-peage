@@ -1,0 +1,80 @@
+CRITICAL - 2024-08-02 20:22:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "annotation.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('annotation.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('annotation', [], true)
+ 3 APPPATH\Controllers\DirfinController.php(11): view('annotation')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DirfinController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DirfinController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-02 20:23:13 --> ErrorException: Undefined variable $facultyData
+[Method: GET, Route: /]
+in APPPATH\Views\dirfin\annotation.php on line 39.
+ 1 APPPATH\Views\dirfin\annotation.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $facultyData', 'C:\\xampp\\htdocs\\info-opendoor\\app\\Views\\dirfin\\annotation.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\info-opendoor\\app\\Views\\dirfin\\annotation.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dirfin/annotation', [], true)
+ 5 APPPATH\Controllers\DirfinController.php(11): view('dirfin/annotation')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DirfinController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DirfinController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-02 20:24:16 --> ParseError: syntax error, unexpected token "endforeach", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Views\dirfin\annotation.php on line 81.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dirfin/annotation', [], true)
+ 3 APPPATH\Controllers\DirfinController.php(11): view('dirfin/annotation')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DirfinController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DirfinController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-02 20:24:41 --> ErrorException: Undefined variable $fc
+[Method: GET, Route: /]
+in APPPATH\Views\dirfin\annotation.php on line 41.
+ 1 APPPATH\Views\dirfin\annotation.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $fc', 'C:\\xampp\\htdocs\\info-opendoor\\app\\Views\\dirfin\\annotation.php', 41)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\info-opendoor\\app\\Views\\dirfin\\annotation.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dirfin/annotation', [], true)
+ 5 APPPATH\Controllers\DirfinController.php(11): view('dirfin/annotation')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DirfinController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DirfinController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-02 20:31:30 --> ErrorException: Undefined variable $pd
+[Method: GET, Route: /]
+in APPPATH\Views\dirfin\annotation.php on line 66.
+ 1 APPPATH\Views\dirfin\annotation.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pd', 'C:\\xampp\\htdocs\\info-opendoor\\app\\Views\\dirfin\\annotation.php', 66)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\info-opendoor\\app\\Views\\dirfin\\annotation.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dirfin/annotation', [], true)
+ 5 APPPATH\Controllers\DirfinController.php(11): view('dirfin/annotation')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DirfinController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DirfinController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-02 20:32:43 --> ErrorException: Undefined variable $pd
+[Method: GET, Route: /]
+in APPPATH\Views\dirfin\annotation.php on line 72.
+ 1 APPPATH\Views\dirfin\annotation.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pd', 'C:\\xampp\\htdocs\\info-opendoor\\app\\Views\\dirfin\\annotation.php', 72)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\info-opendoor\\app\\Views\\dirfin\\annotation.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dirfin/annotation', [], true)
+ 5 APPPATH\Controllers\DirfinController.php(11): view('dirfin/annotation')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DirfinController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DirfinController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
